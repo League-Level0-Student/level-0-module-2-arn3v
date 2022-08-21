@@ -6,9 +6,31 @@ package _01_random._5_magic_8_ball;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class Magic8Ball {
 
-	// 1. Make a main method that includes all the steps below
+	// 1. Make a main method that includes all the steps below 
+	public static void main(String[] args) {
+		JOptionPane.showInputDialog(null, "Ask a question for the 8 ball to answer...");
+		
+		Random num = new Random();
+		
+		int r = num.nextInt(4);
+	
+		
+			if (r == 0) {
+				JOptionPane.showMessageDialog(null, "Yes");
+			} else if (r == 1) {
+				JOptionPane.showMessageDialog(null, "No");
+			} else if (r == 2) {
+				JOptionPane.showMessageDialog(null, "Ask Google");	
+			} else {
+				JOptionPane.showMessageDialog(null, "Fortnite is an online video game developed by Epic Games and released in 2017. It is available in three distinct game mode versions that otherwise share the same general gameplay and game engine");
+			};
+			
+			
+
 
 	// 2. Get the user to enter a question for the 8 ball to answer
 	
@@ -33,5 +55,5 @@ public class Magic8Ball {
 	// 7. If the random number is 3
 
 	// -- write your own answer
-
+	}
 }

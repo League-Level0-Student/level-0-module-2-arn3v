@@ -54,15 +54,16 @@ Random rand = new Random();
 
 			// 2. Fix the code below so that it displays the correct image
 			if (randomChoice == 1) {
-				label.setIcon("dice 1.png");
+				label.setIcon(oneImg);
 			} else if (randomChoice == 2) {
-				label.setIcon("dice 2.png");
+				label.setIcon(twoImg);
 			} else if (randomChoice == 3) {
-				label.setIcon("dice 3.png");
+				label.setIcon(threeImg);
 			} else if (randomChoice == 4) {
-				label.setIcon("dice 4.png");
+				label.setIcon(fourImg);
 			} else if (randomChoice == 5) {
-				label.setIcon("dice 5.png");
+				label.setIcon(fiveImg);
+				
 			} else {
 				label.setIcon(sixImg);
 			}
