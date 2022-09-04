@@ -29,7 +29,13 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */		
-
+// use for loop between 0 and 1 billy and then call tryCode and it will run through the numbers until u get the number
+		for ( int i = 0; i < 1_000_000_000; i++) {
+			tryCode(i);
+		}
+		
+		
+		
 	}
 
 	 void tryCode(int guess) {
